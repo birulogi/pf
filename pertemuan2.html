@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 2: Pengenalan Proyek Sabun Jelantah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f0f4f8; }
+        .glass-card { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); border: 1px solid rgba(226, 232, 240, 0.8); }
+        .step-pill { background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); }
+        .accent-gradient { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); }
+    </style>
+</head>
+<body class="text-slate-800 pb-20">
+
+    <!-- Header Section -->
+    <header class="bg-blue-800 text-white py-14 px-6 shadow-lg relative overflow-hidden">
+        <div class="absolute top-0 right-0 p-8 opacity-10">
+            <i data-lucide="droplet" class="w-40 h-40"></i>
+        </div>
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="flex items-center gap-3 mb-4">
+                <i data-lucide="flask-conical" class="w-10 h-10 text-blue-200"></i>
+                <h1 class="text-3xl font-bold tracking-tight uppercase">Agenda Proyek Kolaboratif</h1>
+            </div>
+            <div class="h-1 w-20 bg-blue-400 mb-6 rounded-full"></div>
+            <p class="text-blue-100 text-xl font-medium mb-2">Pertemuan Ke-2: Pengenalan Proyek & Orientasi Kegiatan</p>
+            <p class="text-blue-200/80 mb-6 max-w-2xl text-sm italic">"Mengubah limbah menjadi berkah melalui rekayasa teknologi tepat guna."</p>
+            
+            <div class="flex flex-wrap gap-6 text-xs text-blue-100 uppercase tracking-widest font-bold">
+                <span class="flex items-center gap-2 bg-blue-900/50 px-3 py-2 rounded-lg border border-blue-500/30">
+                    <i data-lucide="calendar" class="w-4 h-4"></i> Rabu, 28 Januari 2026
+                </span>
+                <span class="flex items-center gap-2 bg-blue-900/50 px-3 py-2 rounded-lg border border-blue-500/30">
+                    <i data-lucide="test-tube-2" class="w-4 h-4"></i> Fokus: Produk Sabun Jelantah
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-6 -mt-8 relative z-20">
+        
+        <div class="space-y-10">
+            
+            <!-- 1. Pembukaan & Apersepsi -->
+            <section>
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="step-pill w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold shadow-md">1</div>
+                    <h2 class="text-xl font-bold text-blue-950 uppercase tracking-tight">Pembukaan & Apersepsi</h2>
+                </div>
+                <div class="glass-card p-6 rounded-2xl shadow-sm ml-4 md:ml-14 border-l-4 border-blue-500">
+                    <p class="text-blue-600 text-xs font-bold uppercase mb-4 flex items-center gap-2">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i> Pertanyaan Pemantik
+                    </p>
+                    <div class="bg-blue-50 p-4 rounded-xl mb-4 border border-blue-100">
+                        <ul class="space-y-3 text-slate-700 text-sm italic">
+                            <li class="flex gap-3">"Minyak goreng bekas di rumah biasanya dibuang ke mana?"</li>
+                            <li class="flex gap-3">"Apa dampaknya jika dibuang langsung ke saluran air?"</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. Pengumuman Proyek Semester -->
+            <section>
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="step-pill w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold shadow-md">2</div>
+                    <h2 class="text-xl font-bold text-blue-950 uppercase tracking-tight">Pengumuman Proyek Final</h2>
+                </div>
+                <div class="bg-indigo-900 text-white p-8 rounded-3xl shadow-xl ml-4 md:ml-14 relative overflow-hidden">
+                    <div class="relative z-10">
+                        <h3 class="text-indigo-300 font-bold text-xs uppercase tracking-[0.2em] mb-3">Tugas Akhir Semester</h3>
+                        <h2 class="text-2xl font-bold leading-tight mb-4 text-white">Mengolah Limbah Minyak Jelantah menjadi Sabun Cuci Piring atau Tangan</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                            <div class="flex items-start gap-3 bg-white/10 p-4 rounded-xl backdrop-blur-sm">
+                                <i data-lucide="check-square" class="w-5 h-5 text-indigo-300"></i>
+                                <p class="text-xs">Solusi masalah nyata di lingkungan sekolah & rumah.</p>
+                            </div>
+                            <div class="flex items-start gap-3 bg-white/10 p-4 rounded-xl backdrop-blur-sm">
+                                <i data-lucide="check-square" class="w-5 h-5 text-indigo-300"></i>
+                                <p class="text-xs">Produk bermanfaat dan bernilai guna tinggi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <i data-lucide="zap" class="absolute -right-8 -bottom-8 w-48 h-48 text-white/5 rotate-12"></i>
+                </div>
+            </section>
+
+            <!-- 3. Konsep Rekayasa & Teknologi -->
+            <section>
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="step-pill w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold shadow-md">3</div>
+                    <h2 class="text-xl font-bold text-blue-950 uppercase tracking-tight">Konsep Rekayasa</h2>
+                </div>
+                <div class="glass-card p-6 rounded-2xl shadow-sm ml-4 md:ml-14 border-l-4 border-indigo-400">
+                    <p class="text-slate-600 text-sm mb-4">Memahami proses transformasi limbah melalui sains sederhana:</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="accent-gradient p-4 rounded-2xl border border-blue-100">
+                            <h4 class="font-bold text-blue-800 text-sm mb-2 flex items-center gap-2">
+                                <i data-lucide="microscope" class="w-4 h-4"></i> Teknologi Sederhana
+                            </h4>
+                            <p class="text-xs text-slate-600">Proses pemurnian minyak menggunakan bahan alami (arang/kulit pisang) sebelum diolah.</p>
+                        </div>
+                        <div class="accent-gradient p-4 rounded-2xl border border-blue-100">
+                            <h4 class="font-bold text-blue-800 text-sm mb-2 flex items-center gap-2">
+                                <i data-lucide="combine" class="w-4 h-4"></i> Proses Rekayasa
+                            </h4>
+                            <p class="text-xs text-slate-600">Reaksi kimia Saponifikasi: mengubah lemak (minyak) menjadi sabun melalui zat basa.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. Diskusi Kelompok -->
+            <section>
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="step-pill w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold shadow-md">4</div>
+                    <h2 class="text-xl font-bold text-blue-950 uppercase tracking-tight">Diskusi: Dampak & Manfaat</h2>
+                </div>
+                <div class="glass-card p-6 rounded-2xl shadow-sm ml-4 md:ml-14 border-l-4 border-emerald-500">
+                    <p class="text-emerald-600 text-xs font-bold uppercase mb-4">Lembar Diskusi Kelompok</p>
+                    <div class="space-y-4">
+                        <div class="flex gap-4 p-4 border border-slate-100 rounded-xl bg-slate-50/50">
+                            <span class="font-black text-slate-300 text-2xl">01</span>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-800">Dampak Negatif</h4>
+                                <p class="text-xs text-slate-500">Apa bahaya minyak jelantah bagi tanah dan air?</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 p-4 border border-slate-100 rounded-xl bg-slate-50/50">
+                            <span class="font-black text-slate-300 text-2xl">02</span>
+                            <div>
+                                <h4 class="text-sm font-bold text-slate-800">Manfaat Produk</h4>
+                                <p class="text-xs text-slate-500">Mengapa sabun jelantah lebih baik daripada membuang minyak?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5. Alur Umum Proyek -->
+            <section>
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="step-pill w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold shadow-md">5</div>
+                    <h2 class="text-xl font-bold text-blue-950 uppercase tracking-tight">Alur Pelaksanaan</h2>
+                </div>
+                <div class="ml-4 md:ml-14 space-y-4">
+                    <div class="relative flex items-center gap-4 p-4 glass-card rounded-2xl border-l-4 border-blue-500">
+                        <div class="flex-none w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold">1</div>
+                        <p class="text-sm font-medium">Perencanaan & Riset Konteks</p>
+                    </div>
+                    <div class="relative flex items-center gap-4 p-4 glass-card rounded-2xl border-l-4 border-blue-500">
+                        <div class="flex-none w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold">2</div>
+                        <p class="text-sm font-medium">Pengumpulan Bahan (Minyak Bekas)</p>
+                    </div>
+                    <div class="relative flex items-center gap-4 p-4 bg-blue-600 text-white rounded-2xl shadow-lg transform scale-[1.02]">
+                        <div class="flex-none w-8 h-8 rounded-full bg-white/20 text-white flex items-center justify-center text-xs font-bold">3</div>
+                        <p class="text-sm font-bold">Proses Pembuatan Sabun (Praktik)</p>
+                        <i data-lucide="shield-check" class="ml-auto w-5 h-5 text-blue-200"></i>
+                    </div>
+                    <div class="relative flex items-center gap-4 p-4 glass-card rounded-2xl border-l-4 border-blue-500 opacity-60">
+                        <div class="flex-none w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold">4</div>
+                        <p class="text-sm font-medium text-slate-500 italic">Uji Kualitas & Presentasi Akhir</p>
+                    </div>
+                    <div class="mt-2 p-3 bg-amber-50 rounded-lg flex items-center gap-3 text-[10px] text-amber-800 font-bold uppercase tracking-wider border border-amber-200">
+                        <i data-lucide="alert-circle" class="w-4 h-4"></i>
+                        Keselamatan kerja adalah prioritas utama selama proses praktik.
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. Penugasan Awal -->
+            <section class="bg-blue-50 border border-blue-200 rounded-3xl p-8 ml-4 md:ml-14 relative overflow-hidden">
+                <div class="flex items-center gap-3 mb-6 text-blue-900">
+                    <i data-lucide="clipboard-list" class="w-6 h-6"></i>
+                    <h2 class="text-xl font-bold uppercase tracking-tight">Tugas Kelompok Awal</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="space-y-4">
+                        <h4 class="text-xs font-bold text-blue-700 uppercase">Informasi yang dicari:</h4>
+                        <ul class="text-sm text-slate-700 space-y-2">
+                            <li class="flex items-center gap-2"><i data-lucide="search" class="w-3 h-3"></i> Metode menjernihkan minyak</li>
+                            <li class="flex items-center gap-2"><i data-lucide="search" class="w-3 h-3"></i> Perbedaan sabun cair & batang</li>
+                        </ul>
+                    </div>
+                    <div class="space-y-4">
+                        <h4 class="text-xs font-bold text-blue-700 uppercase">Rencana Produk:</h4>
+                        <ul class="text-sm text-slate-700 space-y-2">
+                            <li class="flex items-center gap-2"><i data-lucide="file-text" class="w-3 h-3"></i> Ide Nama Produk</li>
+                            <li class="flex items-center gap-2"><i data-lucide="shopping-basket" class="w-3 h-3"></i> Daftar Bahan yang Dibutuhkan</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
