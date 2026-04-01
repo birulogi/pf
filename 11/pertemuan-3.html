@@ -3,103 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pertemuan 3 - Persiapan Proyek</title>
+    <title>Pertemuan 3 - Persiapan & Desain Produk</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
         body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f1f5f9; }
     </style>
 </head>
 
-<body class="text-slate-800">
+<body class="text-slate-800 pb-20">
 
-    <!-- Header -->
-    <header class="bg-emerald-600 text-white py-12 px-6">
-        <div class="max-w-4xl mx-auto">
-            <h1 class="text-3xl font-extrabold mb-2">Pertemuan 3</h1>
-            <p class="text-emerald-100">Persiapan Alat & Bahan serta Finalisasi Desain Produk</p>
-        </div>
-    </header>
+<!-- Header -->
+<header class="bg-emerald-600 text-white py-16 px-6">
+    <div class="max-w-5xl mx-auto">
+        <h1 class="text-4xl font-extrabold mb-3">Pertemuan 3</h1>
+        <p class="text-emerald-100 text-lg">Persiapan Alat & Bahan serta Finalisasi Desain Produk Sabun Jelantah</p>
+    </div>
+</header>
 
-    <!-- Content -->
-    <main class="max-w-4xl mx-auto p-6">
+<!-- Content -->
+<main class="max-w-5xl mx-auto p-6 -mt-10 space-y-6">
 
-        <!-- Tujuan -->
-        <section class="bg-white p-6 rounded-2xl shadow-sm mb-6">
-            <h2 class="font-bold text-xl mb-3 flex items-center gap-2">
-                <i data-lucide="target"></i> Tujuan Pembelajaran
-            </h2>
-            <ul class="list-disc ml-6 text-sm text-slate-600 space-y-1">
-                <li>Siswa mampu mengidentifikasi alat dan bahan pembuatan sabun jelantah</li>
-                <li>Siswa mampu menyusun kebutuhan proyek secara lengkap</li>
-                <li>Siswa mampu membuat desain produk sabun (bentuk, warna, aroma)</li>
-            </ul>
-        </section>
+    <!-- Tujuan -->
+    <section class="bg-white p-6 rounded-3xl shadow-sm border border-slate-200">
+        <h2 class="font-bold text-xl mb-3 flex items-center gap-2">
+            <i data-lucide="target"></i> Tujuan Pembelajaran
+        </h2>
+        <ul class="list-disc ml-6 text-sm text-slate-600 space-y-1">
+            <li>Memahami alat dan bahan yang digunakan dalam pembuatan sabun jelantah</li>
+            <li>Menyusun kebutuhan proyek secara sistematis</li>
+            <li>Merancang desain produk (bentuk, warna, aroma, dan kemasan)</li>
+            <li>Mempersiapkan pembagian tugas dalam kelompok</li>
+        </ul>
+    </section>
 
-        <!-- Kegiatan -->
-        <section class="bg-white p-6 rounded-2xl shadow-sm mb-6">
-            <h2 class="font-bold text-xl mb-3 flex items-center gap-2">
-                <i data-lucide="list-checks"></i> Kegiatan Pembelajaran
-            </h2>
+    <!-- Apersepsi -->
+    <section class="bg-indigo-50 p-6 rounded-3xl border border-indigo-100">
+        <h2 class="font-bold text-lg mb-2 flex items-center gap-2 text-indigo-700">
+            <i data-lucide="lightbulb"></i> Apersepsi
+        </h2>
+        <p class="text-sm text-indigo-700">
+            Pada pertemuan sebelumnya, kalian telah mempelajari konsep saponifikasi. 
+            Sekarang, bayangkan kalian akan benar-benar membuat sabun tersebut. 
+            Apa saja yang perlu dipersiapkan agar proses berjalan aman dan berhasil?
+        </p>
+    </section>
 
-            <div class="space-y-4 text-sm text-slate-600">
-                <p><b>1. Diskusi Kelompok</b><br>
-                Menentukan konsep produk sabun yang akan dibuat (contoh: sabun batang, sabun cair, aroma tertentu).</p>
+    <!-- Materi Inti -->
+    <section class="bg-white p-6 rounded-3xl shadow-sm border border-slate-200">
+        <h2 class="font-bold text-xl mb-4 flex items-center gap-2">
+            <i data-lucide="book-open"></i> Materi Inti
+        </h2>
 
-                <p><b>2. Identifikasi Alat</b><br>
-                - Wadah pencampur<br>
-                - Pengaduk<br>
-                - Cetakan sabun<br>
-                - Timbangan<br>
-                - Sarung tangan</p>
+        <div class="space-y-4 text-sm text-slate-600">
 
-                <p><b>3. Identifikasi Bahan</b><br>
-                - Minyak jelantah<br>
-                - NaOH (soda api)<br>
-                - Air<br>
-                - Pewangi / essen<br>
-                - Pewarna (opsional)</p>
-
-                <p><b>4. Penyusunan Rencana</b><br>
-                Setiap kelompok membuat daftar kebutuhan dan pembagian tugas.</p>
-
-                <p><b>5. Desain Produk</b><br>
-                Menggambar atau mendeskripsikan tampilan sabun (warna, bentuk, kemasan).</p>
+            <div>
+                <h3 class="font-semibold text-slate-700">1. Alat Pembuatan Sabun</h3>
+                <p>Alat yang digunakan harus aman dan tidak bereaksi dengan bahan kimia:</p>
+                <ul class="list-disc ml-6">
+                    <li>Wadah plastik / stainless steel</li>
+                    <li>Pengaduk (kayu / plastik)</li>
+                    <li>Cetakan sabun</li>
+                    <li>Timbangan</li>
+                    <li>Gelas ukur</li>
+                    <li>Sarung tangan & masker</li>
+                </ul>
             </div>
-        </section>
 
-        <!-- Tugas -->
-        <section class="bg-white p-6 rounded-2xl shadow-sm mb-6">
-            <h2 class="font-bold text-xl mb-3 flex items-center gap-2">
-                <i data-lucide="clipboard"></i> Tugas Kelompok
-            </h2>
-            <ul class="list-disc ml-6 text-sm text-slate-600 space-y-1">
-                <li>Membuat daftar alat & bahan lengkap</li>
-                <li>Membuat sketsa desain produk sabun</li>
-                <li>Membagi tugas tiap anggota kelompok</li>
-            </ul>
-        </section>
+            <div>
+                <h3 class="font-semibold text-slate-700">2. Bahan Pembuatan Sabun</h3>
+                <ul class="list-disc ml-6">
+                    <li>Minyak jelantah (disaring terlebih dahulu)</li>
+                    <li>NaOH (soda api)</li>
+                    <li>Air</li>
+                    <li>Pewangi / essen</li>
+                    <li>Pewarna (opsional)</li>
+                </ul>
+                <p class="mt-2 text-xs text-red-500">
+                    ⚠️ Perhatian: NaOH bersifat korosif, harus digunakan dengan hati-hati!
+                </p>
+            </div>
 
-        <!-- Output -->
-        <section class="bg-emerald-100 p-6 rounded-2xl shadow-sm">
-            <h2 class="font-bold text-xl mb-3 flex items-center gap-2 text-emerald-700">
-                <i data-lucide="check-circle"></i> Output Pertemuan
-            </h2>
-            <p class="text-sm text-emerald-800">
-                Setiap kelompok memiliki rencana matang untuk produksi sabun pada pertemuan berikutnya.
-            </p>
-        </section>
+            <div>
+                <h3 class="font-semibold text-slate-700">3. Prinsip Keamanan Kerja</h3>
+                <ul class="list-disc ml-6">
+                    <li>Menggunakan sarung tangan dan masker</li>
+                    <li>Tidak menyentuh bahan kimia langsung</li>
+                    <li>Bekerja di tempat terbuka / ventilasi baik</li>
+                    <li>Mengikuti instruksi guru</li>
+                </ul>
+            </div>
 
-        <!-- Back -->
-        <div class="mt-8">
-            <a href="../index.html" class="text-emerald-600 text-sm font-bold flex items-center gap-2">
-                <i data-lucide="arrow-left"></i> Kembali
-            </a>
+            <div>
+                <h3 class="font-semibold text-slate-700">4. Desain Produk</h3>
+                <p>Desain produk meliputi:</p>
+                <ul class="list-disc ml-6">
+                    <li>Bentuk sabun (kotak, bulat, unik)</li>
+                    <li>Warna</li>
+                    <li>Aroma</li>
+                    <li>Kemasan</li>
+                </ul>
+            </div>
+
         </div>
+    </section>
 
-    </main>
+    <!-- Aktivitas -->
+    <section class="bg-white p-6 rounded-3xl shadow-sm border border-slate-200">
+        <h2 class="font-bold text-xl mb-3 flex items-center gap-2">
+            <i data-lucide="users"></i> Aktivitas Kelompok
+        </h2>
 
-    <script>lucide.createIcons();</script>
+        <ol class="list-decimal ml-6 text-sm text-slate-600 space-y-2">
+            <li>Diskusikan konsep produk sabun kelompok kalian</li>
+            <li>Buat daftar alat dan bahan yang dibutuhkan</li>
+            <li>Tentukan desain sabun (gambar/sketsa)</li>
+            <li>Bagi peran anggota:
+                <ul class="list-disc ml-6">
+                    <li>Ketua</li>
+                    <li>Tim teknis</li>
+                    <li>Tim dokumentasi</li>
+                    <li>Tim laporan</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <!-- LKPD -->
+    <section class="bg-amber-50 p-6 rounded-3xl border border-amber-100">
+        <h2 class="font-bold text-lg mb-2 flex items-center gap-2 text-amber-700">
+            <i data-lucide="file-text"></i> LKPD (Lembar Kerja)
+        </h2>
+
+        <div class="text-sm text-amber-800 space-y-2">
+            <p><b>Isilah tabel berikut:</b></p>
+
+            <p>1. Daftar Alat:</p>
+            <p>2. Daftar Bahan:</p>
+            <p>3. Desain Produk:</p>
+            <p>4. Pembagian Tugas:</p>
+        </div>
+    </section>
+
+    <!-- Refleksi -->
+    <section class="bg-white p-6 rounded-3xl shadow-sm border border-slate-200">
+        <h2 class="font-bold text-xl mb-3 flex items-center gap-2">
+            <i data-lucide="message-circle"></i> Refleksi
+        </h2>
+        <ul class="list-disc ml-6 text-sm text-slate-600 space-y-1">
+            <li>Apa tantangan dalam merancang produk?</li>
+            <li>Mengapa persiapan penting sebelum produksi?</li>
+            <li>Bagaimana kerja sama kelompok kalian?</li>
+        </ul>
+    </section>
+
+    <!-- Output -->
+    <section class="bg-emerald-100 p-6 rounded-3xl border border-emerald-200">
+        <h2 class="font-bold text-xl mb-2 text-emerald-700 flex items-center gap-2">
+            <i data-lucide="check-circle"></i> Output Pertemuan
+        </h2>
+        <p class="text-sm text-emerald-800">
+            Setiap kelompok memiliki rencana lengkap (alat, bahan, desain, dan pembagian tugas) untuk melanjutkan ke tahap produksi pada pertemuan berikutnya.
+        </p>
+    </section>
+
+    <!-- Navigasi -->
+    <div class="flex justify-between pt-4">
+        <a href="pertemuan-2.html" class="text-emerald-600 text-sm font-bold flex items-center gap-2">
+            <i data-lucide="arrow-left"></i> Pertemuan 2
+        </a>
+        <a href="pertemuan-4.html" class="text-emerald-600 text-sm font-bold flex items-center gap-2">
+            Pertemuan 4 <i data-lucide="arrow-right"></i>
+        </a>
+    </div>
+
+</main>
+
+<script>lucide.createIcons();</script>
 </body>
 </html>
